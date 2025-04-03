@@ -9,16 +9,16 @@ body {
 }
 
 header {
-    background-color: cadetblue;
+    background-color: rgb(0, 247, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
     padding-left: 2%;
     padding-right: 2%;
-    color: white;
+    color: rgb(13, 12, 12);
 }
-
+S
 /* creo le classi per i font  */
 .boldonse {
     font-family: "Boldonse", system-ui;
@@ -33,7 +33,7 @@ header {
 }
 
 .hero {
-    background-color: cornflowerblue;
+    background-color: rgb(187, 100, 237);
     height: 92vh;
     display: flex;
     justify-content: center;
@@ -141,7 +141,7 @@ footer > div {
 }
 
 .fascia-download {
-    background-color: lightseagreen;
+    background-color: rgb(0, 255, 242);
     width: 100%;
     height: 10vh;
     margin-top: 3vh;
@@ -152,7 +152,7 @@ footer > div {
 
 .bottone {
     background-color: white;
-    color: lightseagreen;
+    color: rgb(3, 3, 3);
     font-family: "Boldonse";
     padding: 10px 20px;
     border-radius: 15px;
@@ -163,7 +163,7 @@ a {
 }
 
 .bottone:hover {
-    background-color: lightseagreen;
+    background-color: rgb(187, 100, 237);
     color:white;
     border: 1px solid white;
 }
