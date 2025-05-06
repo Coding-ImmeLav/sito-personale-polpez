@@ -21,9 +21,9 @@ header {
 S
 /* creo le classi per i font  */
 .boldonse {
-    font-family: "Boldonse", system-ui;
+    font-family: "Boldonse";
     font-weight: 400;
-    font-style: normal;
+   
 }
 
 .work-sans {
@@ -104,12 +104,13 @@ footer > div {
     flex-wrap: wrap;
     justify-content: center; /* centro i rettangoli nella pagina */
     align-items: center;
+    margin-bottom: 10vh;
 }
 
 .contenitore {
     width: 40%;
     background-color: lightskyblue;
-    height: 35%;
+    height: 55%;
     margin: 30px;
     display: flex;
     justify-content: center;
@@ -127,6 +128,7 @@ footer > div {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 /* personalizzo il riquadro del curriculum  */
@@ -134,6 +136,7 @@ footer > div {
     width: 65%;     
     padding: 20px;
     border: 1px solid black;
+    margin-top: 30vh;
 }
 
 .intestazione {
@@ -190,11 +193,20 @@ a {
     background-color: lightsteelblue;
 }
 
-.sx, .dx {
+.sx {
     width: 50%;
     padding: 5%;
     display: flex;
     justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dx {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -206,4 +218,25 @@ a {
 .relazione-secondo {
     display:flex;
     background-color: aqua;
+}
+.palestra{
+    background-image: url("./img/p.jpg");
+    background-size: cover;
+}
+
+.pc{
+    background-image: url("./img/porcooooooooooooooo.jpg");
+    background-size: cover ;
+}
+
+.repper{
+    background-image: url("./img/reiiiiiiiiiiiiiiiii.jpg");
+    background-size: cover;
+}
+.rugby{
+    background-image: url("./img/rrrrrrrrrrrrrrrrrrrrrrrrrrrruiiiiiiiiiiiiiiiiii.webp");
+    background-size: cover;
+}
+.bianco{
+    color: white;
 }
